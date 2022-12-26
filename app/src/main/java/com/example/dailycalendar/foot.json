@@ -1,0 +1,178 @@
+{
+  "teams":[
+    {
+      "idTeam":1,
+      "code": "ESP",
+      "name": "Spain"
+    },
+    {
+      "idTeam":2,
+      "code": "MAR",
+      "name": "Morocco"
+    },
+    {
+      "idTeam":3,
+      "code": "RMA",
+      "name": "Real Madrid"
+    },
+    {
+      "idTeam":4,
+      "code": "FCB",
+      "name": "Barcelona"
+    }
+  ],
+  "matches":[
+    {
+      "idMatch": "ba55796c-8fb2-4f42-b7f0-3270e09ab3f7",
+      "idCompetition": "dc63d9a0-67dd-44ba-b7d0-c3e3163f4081",
+      "competitionName": "UEFA Champions League",
+      "stadium": {
+        "idStadium": "6e2ceb5e-c55b-4112-8db4-c05be4f08f32",
+        "name": "Estadio Santiago Bernabéu" ,
+        "cityName": "Madrid",
+        "idCountry": "ESP"
+      },
+      "matchDate": "2022-04-23T19:00:00.000Z",
+      "homeTeam":{
+        "idTeam": "3",
+        "idCountry": "ESP",
+        "coach":[{
+          "idCoach": "a7cac16b-eb9d-4803-a59a-3ae57d1a291b",
+          "idCountry": "ITA",
+          "name": "Carlo Ancelotti"
+        }],
+        "players":[
+          {
+            "idPlayer": "7fe6d1bc-ad8e-4d6f-a978-8a1b7cb10fa0",
+            "idTeam": "3",
+            "playerName": "Thibaut Courtois",
+            "idCountry": "BEL",
+            "position": 0
+          },
+          {
+            "idPlayer": "93f8d0b2-2ab7-4bd4-bba2-4ab7c9d75091",
+            "idTeam": "3",
+            "playerName": "Daniel Carvajal",
+            "idCountry": "ESP",
+            "position": 2
+          },
+          {
+            "idPlayer": "20587aa9-e65a-40b2-93a3-b102a149977f",
+            "idTeam": "3",
+            "playerName": "David Alaba",
+            "idCountry": "AUT",
+            "position": 1
+          }
+        ]
+      },
+      "awayTeam":{
+        "idTeam": "4",
+        "idCountry": "ESP",
+        "coach":[{
+          "idCoach": "de1eeae5-515a-4166-9eb4-e31071d74548",
+          "idCountry": "ESP",
+          "name": "Xavi Hernández"
+        }],
+        "players":[
+          {
+            "idPlayer": "993c82e4-0271-41ef-a1c3-42836f685547",
+            "idTeam": "4",
+            "playerName": "Marc-André ter Stegen",
+            "idCountry": "GER",
+            "position": 0
+          },
+          {
+            "idPlayer": "da125aea-32ae-4fc6-ade7-3aea7abe9c83",
+            "idTeam": "4",
+            "playerName": "Marcos Alonso",
+            "idCountry": "ESP",
+            "position": 2
+          },
+          {
+            "idPlayer": "4c8afd9a-f89f-4924-b66a-3064686ef3f6",
+            "idTeam": "4",
+            "playerName": "Héctor Bellerín",
+            "idCountry": "ESP",
+            "position": 1
+          }
+        ]
+      }
+    },
+    {
+      "idMatch": "26b1da7f-8005-4d1c-9b03-25923658da16",
+      "idCompetition": "4fb3aec4-1fb8-4660-89be-2c212aad0f14",
+      "competitionName": "Copa Mundial de Fútbo",
+      "stadium": {
+        "idStadium": "d1c16ebf-dbc7-4111-b1f8-668a92f86148",
+        "name": "Estadio Al Bait" ,
+        "cityName": "Al Khor",
+        "idCountry": "QAT"
+      },
+      "matchDate": "2022-11-29T17:00:00.000Z",
+      "homeTeam":{
+        "idTeam": "2",
+        "idCountry": "MAR",
+        "coach":[{
+          "idCoach": "155479e5-d2a2-4bb8-8410-24571f1a2eee",
+          "idCountry": "MAR",
+          "name": "Walid Regragui"
+        }],
+        "players":[
+          {
+            "idPlayer": "92a4a389-4517-4882-b424-ef44c3ddaa40",
+            "idTeam": "2",
+            "playerName": "Yassine Bounou",
+            "idCountry": "MAR",
+            "position": 0
+          },
+          {
+            "idPlayer": "d1fff89b-91f0-44f9-8ff9-ccb84322ef6b",
+            "idTeam": "2",
+            "playerName": "Achraf Hakimi",
+            "idCountry": "MAR",
+            "position": 2
+          },
+          {
+            "idPlayer": "3dabfd8a-3a16-4dbc-bbbc-0aee6d194a28",
+            "idTeam": "2",
+            "playerName": "Nayef Aguerd",
+            "idCountry": "MAR",
+            "position": 1
+          }
+        ]
+      },
+      "awayTeam":{
+        "idTeam": "1",
+        "idCountry": "ESP",
+        "coach":[{
+          "idCoach": "16bc22c8-7c12-4a16-a203-5b92b55b5cfb",
+          "idCountry": "ESP",
+          "name": "Luis Enrique"
+        }],
+        "players":[
+          {
+            "idPlayer": "ba71d1a9-ee9e-4db6-a9a4-466bf9898835",
+            "idTeam": "1",
+            "playerName": "Unai Simón",
+            "idCountry": "ESP",
+            "position": 0
+          },
+          {
+            "idPlayer": "b124db58-f318-4ad1-8c2d-2550b95f08ef",
+            "idTeam": "1",
+            "playerName": "Dani Carvajal",
+            "idCountry": "ESP",
+            "position": 2
+          },
+          {
+            "idPlayer": "166a660f-90fa-4719-8f9a-1d241b6d90e6",
+            "idTeam": "1",
+            "playerName": "Jordi Alba",
+            "idCountry": "ESP",
+            "position": 1
+          }
+        ]
+      }
+    }
+  ]
+}
